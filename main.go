@@ -9,12 +9,16 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 )
 
+var (
+	version string = "dev"
+)
+
 func main() {
 	opts := providerserver.ServeOpts{
-		Address: "registry.terraform.io/ndonathan/azuresim",
+		Address: "ndonathan.github.io/ndonathan/azuresim",
 	}
 
-	err := providerserver.Serve(context.Background(), provider.New("0.1.0"), opts)
+	err := providerserver.Serve(context.Background(), provider.New(version), opts)
 	if err != nil {
 		log.Fatal(err.Error())
 	}
