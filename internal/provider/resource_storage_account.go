@@ -19,16 +19,16 @@ type StorageAccountResource struct {
 }
 
 type StorageAccountModel struct {
-	ID                   types.String `tfsdk:"id"`
-	Name                 types.String `tfsdk:"name"`
-	ResourceGroupName    types.String `tfsdk:"resource_group_name"`
-	Location             types.String `tfsdk:"location"`
-	AccountTier          types.String `tfsdk:"account_tier"`
+	ID                     types.String `tfsdk:"id"`
+	Name                   types.String `tfsdk:"name"`
+	ResourceGroupName      types.String `tfsdk:"resource_group_name"`
+	Location               types.String `tfsdk:"location"`
+	AccountTier            types.String `tfsdk:"account_tier"`
 	AccountReplicationType types.String `tfsdk:"account_replication_type"`
-	AccountKind          types.String `tfsdk:"account_kind"`
-	PrimaryBlobEndpoint  types.String `tfsdk:"primary_blob_endpoint"`
-	PrimaryAccessKey     types.String `tfsdk:"primary_access_key"`
-	Tags                 types.Map    `tfsdk:"tags"`
+	AccountKind            types.String `tfsdk:"account_kind"`
+	PrimaryBlobEndpoint    types.String `tfsdk:"primary_blob_endpoint"`
+	PrimaryAccessKey       types.String `tfsdk:"primary_access_key"`
+	Tags                   types.Map    `tfsdk:"tags"`
 }
 
 func NewStorageAccountResource() resource.Resource {

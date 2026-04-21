@@ -19,17 +19,17 @@ type VirtualMachineResource struct {
 }
 
 type VirtualMachineModel struct {
-	ID                types.String `tfsdk:"id"`
-	Name              types.String `tfsdk:"name"`
-	ResourceGroupName types.String `tfsdk:"resource_group_name"`
-	Location          types.String `tfsdk:"location"`
-	VMSize            types.String `tfsdk:"vm_size"`
-	AdminUsername     types.String `tfsdk:"admin_username"`
-	AdminPassword     types.String `tfsdk:"admin_password"`
-	NetworkInterfaceIDs types.List `tfsdk:"network_interface_ids"`
-	OSDisk            types.List   `tfsdk:"os_disk"`
-	SourceImageReference types.List `tfsdk:"source_image_reference"`
-	Tags              types.Map    `tfsdk:"tags"`
+	ID                   types.String `tfsdk:"id"`
+	Name                 types.String `tfsdk:"name"`
+	ResourceGroupName    types.String `tfsdk:"resource_group_name"`
+	Location             types.String `tfsdk:"location"`
+	VMSize               types.String `tfsdk:"vm_size"`
+	AdminUsername        types.String `tfsdk:"admin_username"`
+	AdminPassword        types.String `tfsdk:"admin_password"`
+	NetworkInterfaceIDs  types.List   `tfsdk:"network_interface_ids"`
+	OSDisk               types.List   `tfsdk:"os_disk"`
+	SourceImageReference types.List   `tfsdk:"source_image_reference"`
+	Tags                 types.Map    `tfsdk:"tags"`
 }
 
 type OSDiskModel struct {
