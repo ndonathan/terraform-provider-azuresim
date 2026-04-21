@@ -39,22 +39,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Checkout gh-pages
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-        continue-on-error: true
-        id: checkout_ghpages
-
-      - name: Create gh-pages branch if it does not exist
-        if: steps.checkout_ghpages.outcome == 'failure'
+      - name: Clone registry repo
+        env:
+          REGISTRY_TOKEN: ${{ secrets.REGISTRY_DEPLOY_TOKEN }}
         run: |
+          git clone "https://x-access-token:${REGISTRY_TOKEN}@github.com/ndonathan/ndonathan.github.io.git" registry
+          cd registry
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan gh-pages
-          git rm -rf . 2>/dev/null || true
-          git commit --allow-empty -m "Initialize gh-pages"
-          git push origin gh-pages
 
       - name: Extract version from tag
         id: version
@@ -88,11 +80,12 @@ jobs:
           GPG_PUBLIC_KEY: ${{ secrets.GPG_PUBLIC_KEY }}
           GPG_KEY_ID: ${{ steps.gpg.outputs.key_id }}
         run: |
+          cd registry
           VERSION="${{ steps.version.outputs.version }}"
           TAG="${{ steps.version.outputs.tag }}"
           PROVIDER="azuresim"
           NAMESPACE="ndonathan"
-          REPO="${GITHUB_REPOSITORY}"
+          REPO="ndonathan/terraform-provider-azuresim"
           BASE_DIR="v1/providers/${NAMESPACE}/${PROVIDER}"
           CHECKSUMS="/tmp/release/terraform-provider-${PROVIDER}_${VERSION}_SHA256SUMS"
 
@@ -186,9 +179,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          cd registry
           git add -A
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Update registry for ${{ steps.version.outputs.tag }}"
-          git push --set-upstream origin gh-pages
+          git commit -m "Update azuresim provider registry for ${{ steps.version.outputs.tag }}"
+          git push
