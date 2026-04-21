@@ -49,6 +49,8 @@ jobs:
       - name: Create gh-pages branch if it does not exist
         if: steps.checkout_ghpages.outcome == 'failure'
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout --orphan gh-pages
           git rm -rf . 2>/dev/null || true
           git commit --allow-empty -m "Initialize gh-pages"
