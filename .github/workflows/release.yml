@@ -191,4 +191,4 @@ jobs:
           git add -A
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Update registry for ${{ steps.version.outputs.tag }}"
-          git push
+          git push --set-upstream origin gh-pages
