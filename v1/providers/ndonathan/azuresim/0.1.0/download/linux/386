@@ -1,0 +1,18 @@
+{
+  "protocols": ["6.0"],
+  "os": "linux",
+  "arch": "386",
+  "filename": "terraform-provider-azuresim_0.1.0_linux_386.zip",
+  "download_url": "https://github.com/ndonathan/terraform-provider-azuresim/releases/download/v0.1.0/terraform-provider-azuresim_0.1.0_linux_386.zip",
+  "shasums_url": "https://github.com/ndonathan/terraform-provider-azuresim/releases/download/v0.1.0/terraform-provider-azuresim_0.1.0_SHA256SUMS",
+  "shasums_signature_url": "https://github.com/ndonathan/terraform-provider-azuresim/releases/download/v0.1.0/terraform-provider-azuresim_0.1.0_SHA256SUMS.sig",
+  "shasum": "087e279c1977c02ba2e8870dfc12a71aa640973bac8a75339a161e62a265c97d",
+  "signing_keys": {
+    "gpg_public_keys": [
+      {
+        "key_id": "CC86B35CAB0BB044",
+        "ascii_armor": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n\nmQINBGnnsL0BEAD4SI7tVYmgrmmKCpBZJEDG5uHNQ5IAO/Oi/roxnM5f5bBJAobb\nDq6dutYHreL5FRdeHFAtaVJUfGYjDE9p8w20EGNu19PsTL0opHm7lQpQsGaBPf2/\n5mCjpUH6hW5VAfhuH7k+6BkNr8fxP8aQ4TzHD5RYln0WD+sXlVRCM7zzij6Oc7xz\n7pvKNphVE72Ooeke5S+BZF7f9Jl2ymykvEjvZy7eb956jjkZx4FJcn/7NzHCjDzp\n2C7zJfzpqXPWyk+Its4Gyg2OfYG5PgwibakFhREng+PSj86PguZ6oIb6DZGaNcKV\nIfpnO2epNPKIOhZa5cMeuVedeBro4lbmkTguPuwkr82UCpa2hBHYwguVRwPtEH+o\n0WSsAwW+J+dKJXvs3RZnyWrh8FcUuzKJikpJrxRYVK4yqduSqusDUsuEfBTlnvRz\ns5IVtwc11nmo4ERyVrMaN9lo5cqkp2sYt35Nw3GJWYAYmRQdYHzXQGCCdGesw6dC\nAav7wUN2GRmostmW8ofjNswpeWIEpVt9knVvj1iI+W9YCvqOt3EBWzBnV9c2JRT4\nUM/WLQFsP+0HpWEesskpL1J1vZMUKYZ8P1jF6IS1g3p4XmydlmaqfdjEqG/zNJKm\nYdabvOVQ4n+t3PPDovSBCEU+3Ld7ZIOJucpgri32RkBnJHNWq/BwikqpgQARAQAB\ntCJOaWNrICh0ZXN0aW5nKSA8cHJpdmF0ZUBsb2NhbC5sYW4+iQJzBBMBCABdFiEE\n+JIBXWyMgUipM8S/zIazXKsLsEQFAmnnsL0bFIAAAAAABAAObWFudTIsMi41KzEu\nMTIsMCwzAhsjBQkDwmcABQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEMyG\ns1yrC7BEhyQQAIG8BknHKFwhOkt+EnHL0rDK4YbcQhLg9h/hl/bDZMb8a0EQqHd/\n/oBOI7ddI7VahFAEtdg1Q5y+vH5gjkNdOwsS18hS14Y2GC/jgTm5RqpTuZyyV3/T\nihObEBwcSfGhSDvtkkowViF6/presnwf31XsyngQhUdan79Px7wqXMG5hpZ9BABu\nvbvXZLRFV45aw5ZjH+ZIOjfMvqADUFziOHOeNGvuH792tvIlHRlYF5vM9s9M0EPD\nVvfj4exRGA/aFZE4pGTF6DwHgmo87EaOQ9ePjIqIsL1dal/E8vh83ZQ7I+vDfMj2\nfey47P3bV4/dzkIMvpqDUrFu442jTKnCtsQCLuqZgZIEdNP2Q6oavqP1+tzvG+OW\nmfDBGAljdfx7An5dpYTUCUAvs6tRnS+yMt1M2aosrZunLGn1DUrFUyOVt7QG59mh\nO2MXrlCBMxm6HUQHle5nBZzPxgeC6q7M9GvUG2mkQhXhVLbJJCoc5fsTxwm3FKhp\n7swdLYW0KIafQn2iP39l8TP1Dp94VjAOMTzRU2V7LOKocnW+4NBrExS4kiKALT/e\nAkY1toBWN7Zs1x0wnWlxTeqp246mDin8Rhkq7ib/GSeoL/aKz12MKIVIzWI2Qey2\nuYm1miDGzDF8itB9GyeoaYG5h2hsgNkG7pzhfacRq3bO3VdTbQsieCWu\n=puQS\n-----END PGP PUBLIC KEY BLOCK-----\n"
+      }
+    ]
+  }
+}
