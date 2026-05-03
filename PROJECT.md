@@ -15,7 +15,7 @@ A simulated Azure Terraform provider that mimics the AzureRM provider interface 
 ### Universal floor
 - [x] README.md
 - [x] PROJECT.md
-- [ ] TODO.md (BACKLOG.md serves as feature backlog; create TODO.md for non-feature work)
+- [x] TODO.md (BACKLOG.md serves as feature backlog; create TODO.md for non-feature work)
 - [x] .gitignore
 
 ### Project-specific (terraform-provider)
