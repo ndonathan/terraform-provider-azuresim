@@ -2,7 +2,7 @@
 
 > Resource backlog lives in `BACKLOG.md`. This file is for non-feature work.
 
-- [ ] **GitHub PR-flow consideration.** The `main` branch on `github.com/ndonathan/terraform-provider-azuresim` has a "Changes must be made through a pull request" branch protection rule. The 2026-05-01 WIP-rescue push (`d56cd25`) bypassed the rule via admin override. If you want strict PR flow going forward, future direct pushes to `main` should be replaced with branch + PR. Otherwise, no action — the rule is informational at the admin level.
+- [x] ~~GitHub PR-flow consideration.~~ **Resolved 2026-05-03 — strict branch+PR flow going forward.** Reason: the project has external users (GitHub-published terraform provider), so direct pushes to `main` (even via admin override) violate the contract the branch-protection rule signals. Going forward, every change goes via a topic branch + PR. The 2026-05-01 admin-override push (`d56cd25`) was a one-time WIP-rescue exception and should not be repeated.
 - [ ] **README "Supported Resources" table is stale.** Lists only 13 resources; provider implements 50+ per BACKLOG.md and `internal/provider/resource_*.go` count. Update the table or replace with a generated/linked summary.
 - [ ] **README "Resource Reference" section is stale.** Only documents 8 resources (`resource_group`, `virtual_network`, `subnet`, `virtual_machine`, `network_security_group`, `public_ip`, `network_interface`, `storage_account`). Missing per-attribute reference for the other 40+ resources, or remove the section in favor of `docs/resources/`.
 - [ ] **README "Project Structure" diagram is stale.** Shows 8 resource files; actual `internal/provider/` has 60+ Go files (resources + tests). Refresh or simplify the diagram.
