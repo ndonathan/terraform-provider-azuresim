@@ -27,6 +27,9 @@ A simulated Azure Terraform provider that mimics the AzureRM provider interface 
 - [x] BACKLOG.md tracking proposed resources
 - [x] .goreleaser.yml for release tooling
 - [x] terraform-registry-manifest.json
+- [x] Acceptance / unit tests (`internal/provider/*_test.go`)
+- [x] CI workflows (`.github/workflows/test.yml`, `release.yml`)
+- [x] GNUmakefile (build/test convenience)
 
 ## Notes
 
