@@ -19,23 +19,82 @@ All resource state is managed entirely within Terraform's state file. No API cal
 
 ## Supported Resources
 
-| Resource | Type Name | Azure Equivalent |
-|----------|-----------|------------------|
-| Resource Group | `azuresim_resource_group` | `azurerm_resource_group` |
-| Virtual Network | `azuresim_virtual_network` | `azurerm_virtual_network` |
-| Subnet | `azuresim_subnet` | `azurerm_subnet` |
-| Virtual Machine | `azuresim_virtual_machine` | `azurerm_linux_virtual_machine` |
-| Storage Account | `azuresim_storage_account` | `azurerm_storage_account` |
-| Network Security Group | `azuresim_network_security_group` | `azurerm_network_security_group` |
-| Public IP | `azuresim_public_ip` | `azurerm_public_ip` |
-| Network Interface | `azuresim_network_interface` | `azurerm_network_interface` |
-| Managed Disk | `azuresim_managed_disk` | `azurerm_managed_disk` |
-| User-Assigned Identity | `azuresim_user_assigned_identity` | `azurerm_user_assigned_identity` |
-| Key Vault | `azuresim_key_vault` | `azurerm_key_vault` |
-| Log Analytics Workspace | `azuresim_log_analytics_workspace` | `azurerm_log_analytics_workspace` |
-| Storage Container | `azuresim_storage_container` | `azurerm_storage_container` |
+50 resource types as of 2026-05-03. Each resource generates a realistic Azure-style resource ID (e.g. `/subscriptions/<id>/resourceGroups/<name>/providers/Microsoft.Compute/virtualMachines/<name>`).
 
-Each resource generates a realistic Azure-style resource ID (e.g. `/subscriptions/<id>/resourceGroups/<name>/providers/Microsoft.Compute/virtualMachines/<name>`).
+### Foundational
+
+| `azuresim_*` | Azure equivalent |
+|---|---|
+| `resource_group` | `azurerm_resource_group` |
+| `role_assignment` | `azurerm_role_assignment` |
+| `user_assigned_identity` | `azurerm_user_assigned_identity` |
+| `diagnostic_setting` | `azurerm_monitor_diagnostic_setting` |
+
+### Networking
+
+| `azuresim_*` | Azure equivalent |
+|---|---|
+| `virtual_network` | `azurerm_virtual_network` |
+| `virtual_network_peering` | `azurerm_virtual_network_peering` |
+| `subnet` | `azurerm_subnet` |
+| `subnet_nsg_association` | `azurerm_subnet_network_security_group_association` |
+| `network_interface` | `azurerm_network_interface` |
+| `network_security_group` | `azurerm_network_security_group` |
+| `network_security_rule` | `azurerm_network_security_rule` |
+| `public_ip` | `azurerm_public_ip` |
+| `route_table` | `azurerm_route_table` |
+| `nat_gateway` | `azurerm_nat_gateway` |
+| `private_endpoint` | `azurerm_private_endpoint` |
+| `private_dns_zone` | `azurerm_private_dns_zone` |
+| `load_balancer` | `azurerm_lb` |
+| `application_gateway` | `azurerm_application_gateway` |
+| `firewall` | `azurerm_firewall` |
+| `front_door` | `azurerm_cdn_frontdoor_profile` |
+| `bastion` | `azurerm_bastion_host` |
+
+### Compute
+
+| `azuresim_*` | Azure equivalent |
+|---|---|
+| `virtual_machine` | `azurerm_linux_virtual_machine` |
+| `windows_virtual_machine` | `azurerm_windows_virtual_machine` |
+| `vmss` | `azurerm_linux_virtual_machine_scale_set` |
+| `managed_disk` | `azurerm_managed_disk` |
+| `kubernetes_cluster` | `azurerm_kubernetes_cluster` |
+| `container_app` | `azurerm_container_app` |
+| `container_registry` | `azurerm_container_registry` |
+| `function_app` | `azurerm_linux_function_app` |
+| `web_app` | `azurerm_linux_web_app` |
+| `service_plan` | `azurerm_service_plan` |
+
+### Data & messaging
+
+| `azuresim_*` | Azure equivalent |
+|---|---|
+| `storage_account` | `azurerm_storage_account` |
+| `storage_container` | `azurerm_storage_container` |
+| `storage_blob` | `azurerm_storage_blob` |
+| `cosmosdb_account` | `azurerm_cosmosdb_account` |
+| `mssql` | `azurerm_mssql_server` |
+| `postgresql_flexible` | `azurerm_postgresql_flexible_server` |
+| `redis_cache` | `azurerm_redis_cache` |
+| `eventhub_namespace` | `azurerm_eventhub_namespace` |
+| `eventhub` | `azurerm_eventhub` |
+| `servicebus_namespace` | `azurerm_servicebus_namespace` |
+| `servicebus_children` | `azurerm_servicebus_queue` / `_topic` / `_subscription` |
+| `api_management` | `azurerm_api_management` |
+
+### Observability & security
+
+| `azuresim_*` | Azure equivalent |
+|---|---|
+| `log_analytics_workspace` | `azurerm_log_analytics_workspace` |
+| `application_insights` | `azurerm_application_insights` |
+| `monitor_alerts` | `azurerm_monitor_metric_alert` |
+| `recovery_services_vault` | `azurerm_recovery_services_vault` |
+| `key_vault` | `azurerm_key_vault` |
+| `key_vault_secret` | `azurerm_key_vault_secret` |
+| `key_vault_key` | `azurerm_key_vault_key` |
 
 ## Provider Configuration
 
@@ -240,21 +299,22 @@ A full working example is available in the [`examples/`](examples/main.tf) direc
 
 ```
 terraform-provider-azuresim/
-├── main.go                                        # Entry point
-├── go.mod
+├── main.go                                       # Entry point
+├── go.mod / go.sum
+├── GNUmakefile                                   # build/test/lint convenience
+├── .goreleaser.yml                               # Release tooling
+├── terraform-registry-manifest.json
 ├── internal/provider/
-│   ├── provider.go                                # Provider schema & config
-│   ├── resource_resource_group.go                 # azuresim_resource_group
-│   ├── resource_virtual_network.go                # azuresim_virtual_network
-│   ├── resource_subnet.go                         # azuresim_subnet
-│   ├── resource_virtual_machine.go                # azuresim_virtual_machine
-│   ├── resource_storage_account.go                # azuresim_storage_account
-│   ├── resource_network_security_group.go         # azuresim_network_security_group
-│   ├── resource_public_ip.go                      # azuresim_public_ip
-│   └── resource_network_interface.go              # azuresim_network_interface
-├── docs/                                          # Provider documentation
-└── examples/
-    └── main.tf                                    # Full working example
+│   ├── provider.go                               # Provider schema & config
+│   ├── resource_*.go                             # 50 resource implementations
+│   └── *_test.go                                 # Acceptance/unit tests
+├── docs/
+│   └── resources/                                # Per-resource markdown
+│                                                 # (currently 13 of 50 — see TODO)
+├── examples/                                     # Full working examples
+└── .github/workflows/
+    ├── test.yml                                  # CI tests on push
+    └── release.yml                               # Release on tag
 ```
 
 ## Built With
