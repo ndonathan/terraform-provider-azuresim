@@ -309,8 +309,7 @@ terraform-provider-azuresim/
 │   ├── resource_*.go                             # 61 resource implementations
 │   └── *_test.go                                 # Acceptance/unit tests
 ├── docs/
-│   └── resources/                                # Per-resource markdown
-│                                                 # (currently 13 of 61 — see TODO)
+│   └── resources/                                # Per-resource markdown (61 of 61)
 ├── examples/                                     # Full working examples
 └── .github/workflows/
     ├── test.yml                                  # CI tests on push

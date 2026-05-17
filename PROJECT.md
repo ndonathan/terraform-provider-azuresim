@@ -12,7 +12,7 @@ A simulated Azure Terraform provider that mimics the AzureRM provider interface 
 
 ## Goals
 
-- [ ] **Per-resource docs to 100% coverage** — close the `docs/resources/` gap (currently 13 of 61). Each resource needs a markdown file with attributes, computed values, examples. **Registry publication blocker.** target: 2026-08-31
+- [x] **Per-resource docs to 100% coverage** — close the `docs/resources/` gap. Each resource needs a markdown file with attributes, computed values, examples. **Registry publication blocker.** **Done 2026-05-17** — 61 markdown files in `docs/resources/` match the 61 `New*Resource` entries in `internal/provider/provider.go` (48-doc batch `c391c51` 2026-05-07 brought it from 13 to 61).
 - [ ] **README "Resource Reference" section trimmed or generated** — currently has hand-written reference for 8 of 61 resources (stale). Either auto-generate from `docs/resources/` or replace with a pointer to the registry listing. target: 2026-09-30
 - [ ] **Clean-UID signing keypair for Registry publication** — coordinated with `gpg-terraform-azuresim`'s carried known issue. The "(testing)" UID is fine for the self-hosted registry but reads badly on the official Registry's public listing. Generate a new keypair with a real UID before publication. target: 2026-09-30
 - [ ] **Publish to the official Terraform Registry** — follow the publication flow (Registry namespace, signed release via the new keypair, manifest validation, examples). target: 2026-10-31
