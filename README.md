@@ -19,7 +19,7 @@ All resource state is managed entirely within Terraform's state file. No API cal
 
 ## Supported Resources
 
-50 resource types as of 2026-05-03. Each resource generates a realistic Azure-style resource ID (e.g. `/subscriptions/<id>/resourceGroups/<name>/providers/Microsoft.Compute/virtualMachines/<name>`).
+61 resource types as of 2026-05-03. Each resource generates a realistic Azure-style resource ID (e.g. `/subscriptions/<id>/resourceGroups/<name>/providers/Microsoft.Compute/virtualMachines/<name>`).
 
 ### Foundational
 
@@ -306,11 +306,11 @@ terraform-provider-azuresim/
 ├── terraform-registry-manifest.json
 ├── internal/provider/
 │   ├── provider.go                               # Provider schema & config
-│   ├── resource_*.go                             # 50 resource implementations
+│   ├── resource_*.go                             # 61 resource implementations
 │   └── *_test.go                                 # Acceptance/unit tests
 ├── docs/
 │   └── resources/                                # Per-resource markdown
-│                                                 # (currently 13 of 50 — see TODO)
+│                                                 # (currently 13 of 61 — see TODO)
 ├── examples/                                     # Full working examples
 └── .github/workflows/
     ├── test.yml                                  # CI tests on push
