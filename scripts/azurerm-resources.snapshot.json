@@ -1,0 +1,4522 @@
+{
+  "_comment": "Snapshot of AzureRM provider resources, used by scripts/generate-parity-report.py. Refresh with: scripts/refresh-azurerm-snapshot.sh",
+  "source": "https://registry.terraform.io/v1/providers/hashicorp/azurerm",
+  "azurerm_version": "4.73.0",
+  "azurerm_published_at": "2026-05-14T17:52:27Z",
+  "captured_at": "2026-05-18T17:01:58Z",
+  "resource_count": 1128,
+  "resources": [
+    {
+      "title": "aadb2c_directory",
+      "subcategory": "AAD B2C"
+    },
+    {
+      "title": "active_directory_domain_service",
+      "subcategory": "Active Directory Domain Services"
+    },
+    {
+      "title": "active_directory_domain_service_replica_set",
+      "subcategory": "Active Directory Domain Services"
+    },
+    {
+      "title": "active_directory_domain_service_trust",
+      "subcategory": "Active Directory Domain Services"
+    },
+    {
+      "title": "advanced_threat_protection",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "advisor_suppression",
+      "subcategory": "Advisor"
+    },
+    {
+      "title": "ai_foundry",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "ai_foundry_project",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "ai_services",
+      "subcategory": "Cognitive Services"
+    },
+    {
+      "title": "analysis_services_server",
+      "subcategory": "Analysis Services"
+    },
+    {
+      "title": "api_connection",
+      "subcategory": "Connections"
+    },
+    {
+      "title": "api_management",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_api",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_api_diagnostic",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_api_operation",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_api_operation_policy",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_api_operation_tag",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_api_policy",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_api_release",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_api_schema",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_api_tag",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_api_tag_description",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_api_version_set",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_authorization_server",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_backend",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_certificate",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_custom_domain",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_diagnostic",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_email_template",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_gateway",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_gateway_api",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_gateway_certificate_authority",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_gateway_host_name_configuration",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_global_schema",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_group",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_group_user",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_identity_provider_aad",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_identity_provider_aadb2c",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_identity_provider_facebook",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_identity_provider_google",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_identity_provider_microsoft",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_identity_provider_twitter",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_logger",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_named_value",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_notification_recipient_email",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_notification_recipient_user",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_openid_connect_provider",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_policy",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_policy_fragment",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_product",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_product_api",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_product_group",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_product_policy",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_product_tag",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_redis_cache",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_standalone_gateway",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_subscription",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_tag",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_user",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_workspace",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_workspace_api_version_set",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_workspace_certificate",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_workspace_named_value",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_workspace_policy",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "api_management_workspace_policy_fragment",
+      "subcategory": "API Management"
+    },
+    {
+      "title": "app_configuration",
+      "subcategory": "App Configuration"
+    },
+    {
+      "title": "app_configuration_feature",
+      "subcategory": "App Configuration"
+    },
+    {
+      "title": "app_configuration_key",
+      "subcategory": "App Configuration"
+    },
+    {
+      "title": "app_service",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_active_slot",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_certificate",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_certificate_binding",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_certificate_order",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_connection",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_custom_hostname_binding",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_environment_v3",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_hybrid_connection",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_managed_certificate",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_plan",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_public_certificate",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_slot",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_slot_custom_hostname_binding",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_slot_virtual_network_swift_connection",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_source_control",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_source_control_slot",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_source_control_token",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "app_service_virtual_network_swift_connection",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "application_gateway",
+      "subcategory": "Network"
+    },
+    {
+      "title": "application_insights",
+      "subcategory": "Application Insights"
+    },
+    {
+      "title": "application_insights_analytics_item",
+      "subcategory": "Application Insights"
+    },
+    {
+      "title": "application_insights_api_key",
+      "subcategory": "Application Insights"
+    },
+    {
+      "title": "application_insights_smart_detection_rule",
+      "subcategory": "Application Insights"
+    },
+    {
+      "title": "application_insights_standard_web_test",
+      "subcategory": "Application Insights"
+    },
+    {
+      "title": "application_insights_web_test",
+      "subcategory": "Application Insights"
+    },
+    {
+      "title": "application_insights_workbook",
+      "subcategory": "Application Insights"
+    },
+    {
+      "title": "application_insights_workbook_template",
+      "subcategory": "Application Insights"
+    },
+    {
+      "title": "application_load_balancer",
+      "subcategory": "Service Networking"
+    },
+    {
+      "title": "application_load_balancer_frontend",
+      "subcategory": "Service Networking"
+    },
+    {
+      "title": "application_load_balancer_security_policy",
+      "subcategory": "Service Networking"
+    },
+    {
+      "title": "application_load_balancer_subnet_association",
+      "subcategory": "Service Networking"
+    },
+    {
+      "title": "application_security_group",
+      "subcategory": "Network"
+    },
+    {
+      "title": "arc_kubernetes_cluster",
+      "subcategory": "ArcKubernetes"
+    },
+    {
+      "title": "arc_kubernetes_cluster_extension",
+      "subcategory": "ArcKubernetes"
+    },
+    {
+      "title": "arc_kubernetes_flux_configuration",
+      "subcategory": "ArcKubernetes"
+    },
+    {
+      "title": "arc_kubernetes_provisioned_cluster",
+      "subcategory": "ArcKubernetes"
+    },
+    {
+      "title": "arc_machine",
+      "subcategory": "Hybrid Compute"
+    },
+    {
+      "title": "arc_machine_automanage_configuration_assignment",
+      "subcategory": "Automanage"
+    },
+    {
+      "title": "arc_machine_extension",
+      "subcategory": "Hybrid Compute"
+    },
+    {
+      "title": "arc_private_link_scope",
+      "subcategory": "Hybrid Compute"
+    },
+    {
+      "title": "arc_resource_bridge_appliance",
+      "subcategory": "Arc Resource Bridge"
+    },
+    {
+      "title": "attestation_provider",
+      "subcategory": "Attestation"
+    },
+    {
+      "title": "automanage_configuration",
+      "subcategory": "Automanage"
+    },
+    {
+      "title": "automation_account",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_certificate",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_connection",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_connection_certificate",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_connection_classic_certificate",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_connection_service_principal",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_connection_type",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_credential",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_dsc_configuration",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_dsc_nodeconfiguration",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_hybrid_runbook_worker",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_hybrid_runbook_worker_group",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_job_schedule",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_module",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_powershell72_module",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_python3_package",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_runbook",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_runtime_environment",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_runtime_environment_package",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_schedule",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_software_update_configuration",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_source_control",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_variable_bool",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_variable_datetime",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_variable_int",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_variable_object",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_variable_string",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_watcher",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "automation_webhook",
+      "subcategory": "Automation"
+    },
+    {
+      "title": "availability_set",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "backup_container_storage_account",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "backup_policy_file_share",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "backup_policy_vm",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "backup_policy_vm_workload",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "backup_protected_file_share",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "backup_protected_vm",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "bastion_host",
+      "subcategory": "Network"
+    },
+    {
+      "title": "batch_account",
+      "subcategory": "Batch"
+    },
+    {
+      "title": "batch_application",
+      "subcategory": "Batch"
+    },
+    {
+      "title": "batch_certificate",
+      "subcategory": "Batch"
+    },
+    {
+      "title": "batch_job",
+      "subcategory": "Batch"
+    },
+    {
+      "title": "batch_pool",
+      "subcategory": "Batch"
+    },
+    {
+      "title": "billing_account_cost_management_export",
+      "subcategory": "Cost Management"
+    },
+    {
+      "title": "blueprint_assignment",
+      "subcategory": "Blueprints"
+    },
+    {
+      "title": "bot_channel_alexa",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_channel_direct_line_speech",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_channel_directline",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_channel_email",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_channel_facebook",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_channel_line",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_channel_ms_teams",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_channel_slack",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_channel_sms",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_channel_web_chat",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_channels_registration",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_connection",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_service_azure_bot",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "bot_web_app",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "capacity_reservation",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "capacity_reservation_group",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "cdn_endpoint",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_endpoint_custom_domain",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_custom_domain",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_custom_domain_association",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_endpoint",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_firewall_policy",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_origin",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_origin_group",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_profile",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_route",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_rule",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_rule_set",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_secret",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_frontdoor_security_policy",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "cdn_profile",
+      "subcategory": "CDN"
+    },
+    {
+      "title": "chaos_studio_capability",
+      "subcategory": "Chaos Studio"
+    },
+    {
+      "title": "chaos_studio_experiment",
+      "subcategory": "Chaos Studio"
+    },
+    {
+      "title": "chaos_studio_target",
+      "subcategory": "Chaos Studio"
+    },
+    {
+      "title": "cognitive_account",
+      "subcategory": "Cognitive Services"
+    },
+    {
+      "title": "cognitive_account_customer_managed_key",
+      "subcategory": "Cognitive Services"
+    },
+    {
+      "title": "cognitive_account_project",
+      "subcategory": "Cognitive Services"
+    },
+    {
+      "title": "cognitive_account_rai_blocklist",
+      "subcategory": "Cognitive Services"
+    },
+    {
+      "title": "cognitive_account_rai_policy",
+      "subcategory": "Cognitive Services"
+    },
+    {
+      "title": "cognitive_deployment",
+      "subcategory": "Cognitive Services"
+    },
+    {
+      "title": "communication_service",
+      "subcategory": "Communication"
+    },
+    {
+      "title": "communication_service_email_domain_association",
+      "subcategory": "Communication"
+    },
+    {
+      "title": "confidential_ledger",
+      "subcategory": "Confidential Ledger"
+    },
+    {
+      "title": "consumption_budget_management_group",
+      "subcategory": "Consumption"
+    },
+    {
+      "title": "consumption_budget_resource_group",
+      "subcategory": "Consumption"
+    },
+    {
+      "title": "consumption_budget_subscription",
+      "subcategory": "Consumption"
+    },
+    {
+      "title": "container_app",
+      "subcategory": "Container Apps"
+    },
+    {
+      "title": "container_app_custom_domain",
+      "subcategory": "Container Apps"
+    },
+    {
+      "title": "container_app_environment",
+      "subcategory": "Container Apps"
+    },
+    {
+      "title": "container_app_environment_certificate",
+      "subcategory": "Container Apps"
+    },
+    {
+      "title": "container_app_environment_custom_domain",
+      "subcategory": "Container Apps"
+    },
+    {
+      "title": "container_app_environment_dapr_component",
+      "subcategory": "Container Apps"
+    },
+    {
+      "title": "container_app_environment_managed_certificate",
+      "subcategory": "Container Apps"
+    },
+    {
+      "title": "container_app_environment_storage",
+      "subcategory": "Container Apps"
+    },
+    {
+      "title": "container_app_job",
+      "subcategory": "Container Apps"
+    },
+    {
+      "title": "container_connected_registry",
+      "subcategory": "Container"
+    },
+    {
+      "title": "container_group",
+      "subcategory": "Container"
+    },
+    {
+      "title": "container_registry",
+      "subcategory": "Container"
+    },
+    {
+      "title": "container_registry_agent_pool",
+      "subcategory": "Container"
+    },
+    {
+      "title": "container_registry_cache_rule",
+      "subcategory": "Container"
+    },
+    {
+      "title": "container_registry_credential_set",
+      "subcategory": "Container"
+    },
+    {
+      "title": "container_registry_scope_map",
+      "subcategory": "Container"
+    },
+    {
+      "title": "container_registry_task",
+      "subcategory": "Container"
+    },
+    {
+      "title": "container_registry_task_schedule_run_now",
+      "subcategory": "Container"
+    },
+    {
+      "title": "container_registry_token",
+      "subcategory": "Container"
+    },
+    {
+      "title": "container_registry_token_password",
+      "subcategory": "Container"
+    },
+    {
+      "title": "container_registry_webhook",
+      "subcategory": "Container"
+    },
+    {
+      "title": "cosmosdb_account",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_cassandra_cluster",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_cassandra_datacenter",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_cassandra_keyspace",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_cassandra_table",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_gremlin_database",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_gremlin_graph",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_mongo_collection",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_mongo_database",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_mongo_role_definition",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_mongo_user_definition",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_postgresql_cluster",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_postgresql_coordinator_configuration",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_postgresql_firewall_rule",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_postgresql_node_configuration",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_postgresql_role",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_sql_container",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_sql_database",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_sql_dedicated_gateway",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_sql_function",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_sql_role_assignment",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_sql_role_definition",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_sql_stored_procedure",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_sql_trigger",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cosmosdb_table",
+      "subcategory": "CosmosDB (DocumentDB)"
+    },
+    {
+      "title": "cost_anomaly_alert",
+      "subcategory": "Cost Management"
+    },
+    {
+      "title": "cost_management_scheduled_action",
+      "subcategory": "Cost Management"
+    },
+    {
+      "title": "custom_ip_prefix",
+      "subcategory": "Network"
+    },
+    {
+      "title": "custom_provider",
+      "subcategory": "Custom Providers"
+    },
+    {
+      "title": "dashboard_grafana",
+      "subcategory": "Dashboard"
+    },
+    {
+      "title": "dashboard_grafana_managed_private_endpoint",
+      "subcategory": "Dashboard"
+    },
+    {
+      "title": "data_factory",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_credential_service_principal",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_credential_user_managed_identity",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_custom_dataset",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_customer_managed_key",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_data_flow",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_azure_blob",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_azure_sql_table",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_binary",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_cosmosdb_sqlapi",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_delimited_text",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_http",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_json",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_mysql",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_parquet",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_postgresql",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_snowflake",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_dataset_sql_server_table",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_flowlet_data_flow",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_integration_runtime_azure",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_integration_runtime_azure_ssis",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_integration_runtime_self_hosted",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_custom_service",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_azure_blob_storage",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_azure_databricks",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_azure_file_storage",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_azure_function",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_azure_search",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_azure_sql_database",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_azure_table_storage",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_cosmosdb",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_cosmosdb_mongoapi",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_data_lake_storage_gen2",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_key_vault",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_kusto",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_mysql",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_odata",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_odbc",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_postgresql",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_sftp",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_snowflake",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_sql_managed_instance",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_sql_server",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_synapse",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_linked_service_web",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_managed_private_endpoint",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_pipeline",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_trigger_blob_event",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_trigger_custom_event",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_trigger_schedule",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_factory_trigger_tumbling_window",
+      "subcategory": "Data Factory"
+    },
+    {
+      "title": "data_protection_backup_instance_blob_storage",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_instance_data_lake_storage",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_instance_disk",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_instance_kubernetes_cluster",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_instance_mysql_flexible_server",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_instance_postgresql",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_instance_postgresql_flexible_server",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_policy_blob_storage",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_policy_data_lake_storage",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_policy_disk",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_policy_kubernetes_cluster",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_policy_mysql_flexible_server",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_policy_postgresql",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_policy_postgresql_flexible_server",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_vault",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_backup_vault_customer_managed_key",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_protection_resource_guard",
+      "subcategory": "DataProtection"
+    },
+    {
+      "title": "data_share",
+      "subcategory": "Data Share"
+    },
+    {
+      "title": "data_share_account",
+      "subcategory": "Data Share"
+    },
+    {
+      "title": "data_share_dataset_blob_storage",
+      "subcategory": "Data Share"
+    },
+    {
+      "title": "data_share_dataset_data_lake_gen2",
+      "subcategory": "Data Share"
+    },
+    {
+      "title": "data_share_dataset_kusto_cluster",
+      "subcategory": "Data Share"
+    },
+    {
+      "title": "data_share_dataset_kusto_database",
+      "subcategory": "Data Share"
+    },
+    {
+      "title": "database_migration_project",
+      "subcategory": "Database Migration"
+    },
+    {
+      "title": "database_migration_service",
+      "subcategory": "Database Migration"
+    },
+    {
+      "title": "databox_edge_device",
+      "subcategory": "Databox Edge"
+    },
+    {
+      "title": "databricks_access_connector",
+      "subcategory": "Databricks"
+    },
+    {
+      "title": "databricks_virtual_network_peering",
+      "subcategory": "Databricks"
+    },
+    {
+      "title": "databricks_workspace",
+      "subcategory": "Databricks"
+    },
+    {
+      "title": "databricks_workspace_root_dbfs_customer_managed_key",
+      "subcategory": "Databricks"
+    },
+    {
+      "title": "datadog_monitor",
+      "subcategory": "Datadog"
+    },
+    {
+      "title": "datadog_monitor_sso_configuration",
+      "subcategory": "Datadog"
+    },
+    {
+      "title": "datadog_monitor_tag_rule",
+      "subcategory": "Datadog"
+    },
+    {
+      "title": "dedicated_hardware_security_module",
+      "subcategory": "Hardware Security Module"
+    },
+    {
+      "title": "dedicated_host",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "dedicated_host_group",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "dev_center",
+      "subcategory": "Dev Center"
+    },
+    {
+      "title": "dev_center_attached_network",
+      "subcategory": "Dev Center"
+    },
+    {
+      "title": "dev_center_catalog",
+      "subcategory": "Dev Center"
+    },
+    {
+      "title": "dev_center_dev_box_definition",
+      "subcategory": "Dev Center"
+    },
+    {
+      "title": "dev_center_environment_type",
+      "subcategory": "Dev Center"
+    },
+    {
+      "title": "dev_center_gallery",
+      "subcategory": "Dev Center"
+    },
+    {
+      "title": "dev_center_network_connection",
+      "subcategory": "Dev Center"
+    },
+    {
+      "title": "dev_center_project",
+      "subcategory": "Dev Center"
+    },
+    {
+      "title": "dev_center_project_environment_type",
+      "subcategory": "Dev Center"
+    },
+    {
+      "title": "dev_center_project_pool",
+      "subcategory": "Dev Center"
+    },
+    {
+      "title": "dev_test_global_vm_shutdown_schedule",
+      "subcategory": "Dev Test"
+    },
+    {
+      "title": "dev_test_lab",
+      "subcategory": "Dev Test"
+    },
+    {
+      "title": "dev_test_linux_virtual_machine",
+      "subcategory": "Dev Test"
+    },
+    {
+      "title": "dev_test_policy",
+      "subcategory": "Dev Test"
+    },
+    {
+      "title": "dev_test_schedule",
+      "subcategory": "Dev Test"
+    },
+    {
+      "title": "dev_test_virtual_network",
+      "subcategory": "Dev Test"
+    },
+    {
+      "title": "dev_test_windows_virtual_machine",
+      "subcategory": "Dev Test"
+    },
+    {
+      "title": "digital_twins_endpoint_eventgrid",
+      "subcategory": "Digital Twins"
+    },
+    {
+      "title": "digital_twins_endpoint_eventhub",
+      "subcategory": "Digital Twins"
+    },
+    {
+      "title": "digital_twins_endpoint_servicebus",
+      "subcategory": "Digital Twins"
+    },
+    {
+      "title": "digital_twins_instance",
+      "subcategory": "Digital Twins"
+    },
+    {
+      "title": "digital_twins_time_series_database_connection",
+      "subcategory": "Digital Twins"
+    },
+    {
+      "title": "disk_access",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "disk_encryption_set",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "dns_a_record",
+      "subcategory": "DNS"
+    },
+    {
+      "title": "dns_aaaa_record",
+      "subcategory": "DNS"
+    },
+    {
+      "title": "dns_caa_record",
+      "subcategory": "DNS"
+    },
+    {
+      "title": "dns_cname_record",
+      "subcategory": "DNS"
+    },
+    {
+      "title": "dns_mx_record",
+      "subcategory": "DNS"
+    },
+    {
+      "title": "dns_ns_record",
+      "subcategory": "DNS"
+    },
+    {
+      "title": "dns_ptr_record",
+      "subcategory": "DNS"
+    },
+    {
+      "title": "dns_srv_record",
+      "subcategory": "DNS"
+    },
+    {
+      "title": "dns_txt_record",
+      "subcategory": "DNS"
+    },
+    {
+      "title": "dns_zone",
+      "subcategory": "DNS"
+    },
+    {
+      "title": "dynatrace_monitor",
+      "subcategory": "Dynatrace"
+    },
+    {
+      "title": "dynatrace_tag_rules",
+      "subcategory": "Dynatrace"
+    },
+    {
+      "title": "elastic_cloud_elasticsearch",
+      "subcategory": "Elastic"
+    },
+    {
+      "title": "elastic_san",
+      "subcategory": "Elastic SAN"
+    },
+    {
+      "title": "elastic_san_volume",
+      "subcategory": "Elastic SAN"
+    },
+    {
+      "title": "elastic_san_volume_group",
+      "subcategory": "Elastic SAN"
+    },
+    {
+      "title": "email_communication_service",
+      "subcategory": "Communication"
+    },
+    {
+      "title": "email_communication_service_domain",
+      "subcategory": "Communication"
+    },
+    {
+      "title": "email_communication_service_domain_sender_username",
+      "subcategory": "Communication"
+    },
+    {
+      "title": "eventgrid_domain",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventgrid_domain_topic",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventgrid_event_subscription",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventgrid_namespace",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventgrid_namespace_topic",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventgrid_partner_configuration",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventgrid_partner_namespace",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventgrid_partner_registration",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventgrid_system_topic",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventgrid_system_topic_event_subscription",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventgrid_topic",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventhub",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventhub_authorization_rule",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventhub_cluster",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventhub_consumer_group",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventhub_namespace",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventhub_namespace_authorization_rule",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventhub_namespace_customer_managed_key",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventhub_namespace_disaster_recovery_config",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "eventhub_namespace_schema_group",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "express_route_circuit",
+      "subcategory": "Network"
+    },
+    {
+      "title": "express_route_circuit_authorization",
+      "subcategory": "Network"
+    },
+    {
+      "title": "express_route_circuit_connection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "express_route_circuit_peering",
+      "subcategory": "Network"
+    },
+    {
+      "title": "express_route_connection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "express_route_gateway",
+      "subcategory": "Network"
+    },
+    {
+      "title": "express_route_port",
+      "subcategory": "Network"
+    },
+    {
+      "title": "express_route_port_authorization",
+      "subcategory": "Network"
+    },
+    {
+      "title": "extended_location_custom_location",
+      "subcategory": "Extended Location"
+    },
+    {
+      "title": "fabric_capacity",
+      "subcategory": "Fabric"
+    },
+    {
+      "title": "federated_identity_credential",
+      "subcategory": "Authorization"
+    },
+    {
+      "title": "firewall",
+      "subcategory": "Network"
+    },
+    {
+      "title": "firewall_application_rule_collection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "firewall_nat_rule_collection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "firewall_network_rule_collection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "firewall_policy",
+      "subcategory": "Network"
+    },
+    {
+      "title": "firewall_policy_rule_collection_group",
+      "subcategory": "Network"
+    },
+    {
+      "title": "fluid_relay_server",
+      "subcategory": "Fluid Relay"
+    },
+    {
+      "title": "frontdoor",
+      "subcategory": "Network"
+    },
+    {
+      "title": "frontdoor_custom_https_configuration",
+      "subcategory": "Network"
+    },
+    {
+      "title": "frontdoor_firewall_policy",
+      "subcategory": "Network"
+    },
+    {
+      "title": "frontdoor_rules_engine",
+      "subcategory": "Network"
+    },
+    {
+      "title": "function_app",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "function_app_active_slot",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "function_app_connection",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "function_app_flex_consumption",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "function_app_function",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "function_app_hybrid_connection",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "function_app_slot",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "gallery_application",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "gallery_application_version",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "graph_services_account",
+      "subcategory": "Graph Services"
+    },
+    {
+      "title": "hdinsight_hadoop_cluster",
+      "subcategory": "HDInsight"
+    },
+    {
+      "title": "hdinsight_hbase_cluster",
+      "subcategory": "HDInsight"
+    },
+    {
+      "title": "hdinsight_interactive_query_cluster",
+      "subcategory": "HDInsight"
+    },
+    {
+      "title": "hdinsight_kafka_cluster",
+      "subcategory": "HDInsight"
+    },
+    {
+      "title": "hdinsight_spark_cluster",
+      "subcategory": "HDInsight"
+    },
+    {
+      "title": "healthbot",
+      "subcategory": "Bot"
+    },
+    {
+      "title": "healthcare_dicom_service",
+      "subcategory": "Healthcare"
+    },
+    {
+      "title": "healthcare_fhir_service",
+      "subcategory": "Healthcare"
+    },
+    {
+      "title": "healthcare_medtech_service",
+      "subcategory": "Healthcare"
+    },
+    {
+      "title": "healthcare_medtech_service_fhir_destination",
+      "subcategory": "Healthcare"
+    },
+    {
+      "title": "healthcare_service",
+      "subcategory": "Healthcare"
+    },
+    {
+      "title": "healthcare_workspace",
+      "subcategory": "Healthcare"
+    },
+    {
+      "title": "hpc_cache",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "hpc_cache_access_policy",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "hpc_cache_blob_nfs_target",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "hpc_cache_blob_target",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "hpc_cache_nfs_target",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "image",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "iot_security_device_group",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "iot_security_solution",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "iotcentral_application",
+      "subcategory": "IoT Central"
+    },
+    {
+      "title": "iotcentral_application_network_rule_set",
+      "subcategory": "IoT Central"
+    },
+    {
+      "title": "iotcentral_organization",
+      "subcategory": "IoT Central"
+    },
+    {
+      "title": "iothub",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_certificate",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_consumer_group",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_device_update_account",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_device_update_instance",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_dps",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_dps_certificate",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_dps_shared_access_policy",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_endpoint_cosmosdb_account",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_endpoint_eventhub",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_endpoint_servicebus_queue",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_endpoint_servicebus_topic",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_endpoint_storage_container",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_enrichment",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_fallback_route",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_file_upload",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_route",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "iothub_shared_access_policy",
+      "subcategory": "IoT Hub"
+    },
+    {
+      "title": "ip_group",
+      "subcategory": "Network"
+    },
+    {
+      "title": "ip_group_cidr",
+      "subcategory": "Network"
+    },
+    {
+      "title": "key_vault",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_access_policy",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_certificate",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_certificate_contacts",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_certificate_issuer",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_key",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_managed_hardware_security_module",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_managed_hardware_security_module_key",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_managed_hardware_security_module_key_rotation_policy",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_managed_hardware_security_module_role_assignment",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_managed_hardware_security_module_role_definition",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_managed_storage_account",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_managed_storage_account_sas_token_definition",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "key_vault_secret",
+      "subcategory": "Key Vault"
+    },
+    {
+      "title": "kubernetes_cluster",
+      "subcategory": "Container"
+    },
+    {
+      "title": "kubernetes_cluster_deployment_safeguard",
+      "subcategory": "Container"
+    },
+    {
+      "title": "kubernetes_cluster_extension",
+      "subcategory": "Container"
+    },
+    {
+      "title": "kubernetes_cluster_node_pool",
+      "subcategory": "Container"
+    },
+    {
+      "title": "kubernetes_cluster_trusted_access_role_binding",
+      "subcategory": "Container"
+    },
+    {
+      "title": "kubernetes_fleet_manager",
+      "subcategory": "Container"
+    },
+    {
+      "title": "kubernetes_fleet_member",
+      "subcategory": "Container"
+    },
+    {
+      "title": "kubernetes_fleet_update_run",
+      "subcategory": "Container"
+    },
+    {
+      "title": "kubernetes_fleet_update_strategy",
+      "subcategory": "Container"
+    },
+    {
+      "title": "kubernetes_flux_configuration",
+      "subcategory": "Container"
+    },
+    {
+      "title": "kusto_attached_database_configuration",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "kusto_cluster",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "kusto_cluster_customer_managed_key",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "kusto_cluster_managed_private_endpoint",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "kusto_cluster_principal_assignment",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "kusto_cosmosdb_data_connection",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "kusto_database",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "kusto_database_principal_assignment",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "kusto_eventgrid_data_connection",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "kusto_eventhub_data_connection",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "kusto_iothub_data_connection",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "kusto_script",
+      "subcategory": "Data Explorer"
+    },
+    {
+      "title": "lb",
+      "subcategory": "Load Balancer"
+    },
+    {
+      "title": "lb_backend_address_pool",
+      "subcategory": "Load Balancer"
+    },
+    {
+      "title": "lb_backend_address_pool_address",
+      "subcategory": "Load Balancer"
+    },
+    {
+      "title": "lb_nat_pool",
+      "subcategory": "Load Balancer"
+    },
+    {
+      "title": "lb_nat_rule",
+      "subcategory": "Load Balancer"
+    },
+    {
+      "title": "lb_outbound_rule",
+      "subcategory": "Load Balancer"
+    },
+    {
+      "title": "lb_probe",
+      "subcategory": "Load Balancer"
+    },
+    {
+      "title": "lb_rule",
+      "subcategory": "Load Balancer"
+    },
+    {
+      "title": "lighthouse_assignment",
+      "subcategory": "Lighthouse"
+    },
+    {
+      "title": "lighthouse_definition",
+      "subcategory": "Lighthouse"
+    },
+    {
+      "title": "linux_function_app",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "linux_function_app_slot",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "linux_virtual_machine",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "linux_virtual_machine_scale_set",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "linux_web_app",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "linux_web_app_slot",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "load_test",
+      "subcategory": "Load Test"
+    },
+    {
+      "title": "local_network_gateway",
+      "subcategory": "Network"
+    },
+    {
+      "title": "log_analytics_cluster",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_cluster_customer_managed_key",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_data_export_rule",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_datasource_windows_event",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_datasource_windows_performance_counter",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_linked_service",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_linked_storage_account",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_query_pack",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_query_pack_query",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_saved_search",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_solution",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_storage_insights",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_workspace",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_workspace_table",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "log_analytics_workspace_table_custom_log",
+      "subcategory": "Log Analytics"
+    },
+    {
+      "title": "logic_app_action_custom",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_action_http",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_integration_account",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_integration_account_agreement",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_integration_account_assembly",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_integration_account_batch_configuration",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_integration_account_certificate",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_integration_account_map",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_integration_account_partner",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_integration_account_schema",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_integration_account_session",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_standard",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_trigger_custom",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_trigger_http_request",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_trigger_recurrence",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "logic_app_workflow",
+      "subcategory": "Logic App"
+    },
+    {
+      "title": "machine_learning_compute_cluster",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "machine_learning_compute_instance",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "machine_learning_datastore_blobstorage",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "machine_learning_datastore_datalake_gen2",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "machine_learning_datastore_fileshare",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "machine_learning_inference_cluster",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "machine_learning_synapse_spark",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "machine_learning_workspace",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "machine_learning_workspace_network_outbound_rule_fqdn",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "machine_learning_workspace_network_outbound_rule_private_endpoint",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "machine_learning_workspace_network_outbound_rule_service_tag",
+      "subcategory": "Machine Learning"
+    },
+    {
+      "title": "maintenance_assignment_dedicated_host",
+      "subcategory": "Maintenance"
+    },
+    {
+      "title": "maintenance_assignment_dynamic_scope",
+      "subcategory": "Maintenance"
+    },
+    {
+      "title": "maintenance_assignment_virtual_machine",
+      "subcategory": "Maintenance"
+    },
+    {
+      "title": "maintenance_assignment_virtual_machine_scale_set",
+      "subcategory": "Maintenance"
+    },
+    {
+      "title": "maintenance_configuration",
+      "subcategory": "Maintenance"
+    },
+    {
+      "title": "managed_application",
+      "subcategory": "Managed Applications"
+    },
+    {
+      "title": "managed_application_definition",
+      "subcategory": "Managed Applications"
+    },
+    {
+      "title": "managed_devops_pool",
+      "subcategory": "Managed DevOps Pools"
+    },
+    {
+      "title": "managed_disk",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "managed_disk_sas_token",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "managed_lustre_file_system",
+      "subcategory": "Azure Managed Lustre File System"
+    },
+    {
+      "title": "managed_redis",
+      "subcategory": "Managed Redis"
+    },
+    {
+      "title": "managed_redis_access_policy_assignment",
+      "subcategory": "Managed Redis"
+    },
+    {
+      "title": "managed_redis_geo_replication",
+      "subcategory": "Managed Redis"
+    },
+    {
+      "title": "management_group",
+      "subcategory": "Management"
+    },
+    {
+      "title": "management_group_policy_assignment",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "management_group_policy_exemption",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "management_group_policy_remediation",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "management_group_policy_set_definition",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "management_group_subscription_association",
+      "subcategory": "Management"
+    },
+    {
+      "title": "management_group_template_deployment",
+      "subcategory": "Template"
+    },
+    {
+      "title": "management_lock",
+      "subcategory": "Management"
+    },
+    {
+      "title": "maps_account",
+      "subcategory": "Maps"
+    },
+    {
+      "title": "maps_creator",
+      "subcategory": "Maps"
+    },
+    {
+      "title": "marketplace_agreement",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "marketplace_role_assignment",
+      "subcategory": "Authorization"
+    },
+    {
+      "title": "mongo_cluster",
+      "subcategory": "Mongo Cluster"
+    },
+    {
+      "title": "mongo_cluster_firewall_rule",
+      "subcategory": "Mongo Cluster"
+    },
+    {
+      "title": "mongo_cluster_user",
+      "subcategory": "Mongo Cluster"
+    },
+    {
+      "title": "monitor_aad_diagnostic_setting",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_action_group",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_activity_log_alert",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_alert_processing_rule_action_group",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_alert_processing_rule_suppression",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_alert_prometheus_rule_group",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_autoscale_setting",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_data_collection_endpoint",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_data_collection_rule",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_data_collection_rule_association",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_diagnostic_setting",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_metric_alert",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_private_link_scope",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_private_link_scoped_service",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_scheduled_query_rules_alert",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_scheduled_query_rules_alert_v2",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_scheduled_query_rules_log",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_smart_detector_alert_rule",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "monitor_workspace",
+      "subcategory": "Monitor"
+    },
+    {
+      "title": "mssql_database",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_database_extended_auditing_policy",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_database_vulnerability_assessment_rule_baseline",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_elasticpool",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_failover_group",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_firewall_rule",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_job",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_job_agent",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_job_credential",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_job_schedule",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_job_step",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_job_target_group",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_managed_database",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_managed_instance",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_managed_instance_active_directory_administrator",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_managed_instance_failover_group",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_managed_instance_security_alert_policy",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_managed_instance_start_stop_schedule",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_managed_instance_transparent_data_encryption",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_managed_instance_vulnerability_assessment",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_outbound_firewall_rule",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_server",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_server_dns_alias",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_server_extended_auditing_policy",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_server_microsoft_support_auditing_policy",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_server_security_alert_policy",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_server_transparent_data_encryption",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_server_vulnerability_assessment",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_virtual_machine",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_virtual_machine_availability_group_listener",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_virtual_machine_group",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mssql_virtual_network_rule",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mysql_flexible_database",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mysql_flexible_server",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mysql_flexible_server_active_directory_administrator",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mysql_flexible_server_configuration",
+      "subcategory": "Database"
+    },
+    {
+      "title": "mysql_flexible_server_firewall_rule",
+      "subcategory": "Database"
+    },
+    {
+      "title": "nat_gateway",
+      "subcategory": "Network"
+    },
+    {
+      "title": "nat_gateway_public_ip_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "nat_gateway_public_ip_prefix_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "netapp_account",
+      "subcategory": "NetApp"
+    },
+    {
+      "title": "netapp_account_encryption",
+      "subcategory": "NetApp"
+    },
+    {
+      "title": "netapp_backup_policy",
+      "subcategory": "NetApp"
+    },
+    {
+      "title": "netapp_backup_vault",
+      "subcategory": "NetApp"
+    },
+    {
+      "title": "netapp_pool",
+      "subcategory": "NetApp"
+    },
+    {
+      "title": "netapp_snapshot",
+      "subcategory": "NetApp"
+    },
+    {
+      "title": "netapp_snapshot_policy",
+      "subcategory": "NetApp"
+    },
+    {
+      "title": "netapp_volume",
+      "subcategory": "NetApp"
+    },
+    {
+      "title": "netapp_volume_group_oracle",
+      "subcategory": "NetApp"
+    },
+    {
+      "title": "netapp_volume_group_sap_hana",
+      "subcategory": "NetApp"
+    },
+    {
+      "title": "netapp_volume_quota_rule",
+      "subcategory": "NetApp"
+    },
+    {
+      "title": "network_connection_monitor",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_ddos_protection_plan",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_function_azure_traffic_collector",
+      "subcategory": "Network Function"
+    },
+    {
+      "title": "network_function_collector_policy",
+      "subcategory": "Network Function"
+    },
+    {
+      "title": "network_interface",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_interface_application_gateway_backend_address_pool_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_interface_application_security_group_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_interface_backend_address_pool_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_interface_nat_rule_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_interface_security_group_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_admin_rule",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_admin_rule_collection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_connectivity_configuration",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_deployment",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_ipam_pool",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_ipam_pool_static_cidr",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_management_group_connection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_network_group",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_routing_configuration",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_routing_rule",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_routing_rule_collection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_scope_connection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_security_admin_configuration",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_static_member",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_subscription_connection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_verifier_workspace",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_manager_verifier_workspace_reachability_analysis_intent",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_profile",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_security_group",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_security_perimeter",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_security_perimeter_access_rule",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_security_perimeter_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_security_perimeter_profile",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_security_rule",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_watcher",
+      "subcategory": "Network"
+    },
+    {
+      "title": "network_watcher_flow_log",
+      "subcategory": "Network"
+    },
+    {
+      "title": "new_relic_monitor",
+      "subcategory": "New Relic"
+    },
+    {
+      "title": "new_relic_tag_rule",
+      "subcategory": "New Relic"
+    },
+    {
+      "title": "nginx_api_key",
+      "subcategory": "NGINX"
+    },
+    {
+      "title": "nginx_certificate",
+      "subcategory": "NGINX"
+    },
+    {
+      "title": "nginx_configuration",
+      "subcategory": "NGINX"
+    },
+    {
+      "title": "nginx_deployment",
+      "subcategory": "NGINX"
+    },
+    {
+      "title": "notification_hub",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "notification_hub_authorization_rule",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "notification_hub_namespace",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "oracle_autonomous_database",
+      "subcategory": "Oracle"
+    },
+    {
+      "title": "oracle_autonomous_database_backup",
+      "subcategory": "Oracle"
+    },
+    {
+      "title": "oracle_autonomous_database_clone_from_backup",
+      "subcategory": "Oracle"
+    },
+    {
+      "title": "oracle_autonomous_database_clone_from_database",
+      "subcategory": "Oracle"
+    },
+    {
+      "title": "oracle_cloud_vm_cluster",
+      "subcategory": "Oracle"
+    },
+    {
+      "title": "oracle_exadata_infrastructure",
+      "subcategory": "Oracle"
+    },
+    {
+      "title": "oracle_exascale_database_storage_vault",
+      "subcategory": "Oracle"
+    },
+    {
+      "title": "oracle_resource_anchor",
+      "subcategory": "Oracle"
+    },
+    {
+      "title": "orbital_contact",
+      "subcategory": "Orbital"
+    },
+    {
+      "title": "orbital_contact_profile",
+      "subcategory": "Orbital"
+    },
+    {
+      "title": "orbital_spacecraft",
+      "subcategory": "Orbital"
+    },
+    {
+      "title": "orchestrated_virtual_machine_scale_set",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "palo_alto_local_rulestack",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_local_rulestack_certificate",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_local_rulestack_fqdn_list",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_local_rulestack_outbound_trust_certificate_association",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_local_rulestack_outbound_untrust_certificate_association",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_local_rulestack_prefix_list",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_local_rulestack_rule",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_next_generation_firewall_virtual_hub_local_rulestack",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_next_generation_firewall_virtual_hub_panorama",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_next_generation_firewall_virtual_network_local_rulestack",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_next_generation_firewall_virtual_network_panorama",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_next_generation_firewall_virtual_network_strata_cloud_manager",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "palo_alto_virtual_network_appliance",
+      "subcategory": "Palo Alto"
+    },
+    {
+      "title": "pim_active_role_assignment",
+      "subcategory": "Authorization"
+    },
+    {
+      "title": "pim_eligible_role_assignment",
+      "subcategory": "Authorization"
+    },
+    {
+      "title": "point_to_site_vpn_gateway",
+      "subcategory": "Network"
+    },
+    {
+      "title": "policy_definition",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "policy_set_definition",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "policy_virtual_machine_configuration_assignment",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "portal_dashboard",
+      "subcategory": "Portal"
+    },
+    {
+      "title": "portal_tenant_configuration",
+      "subcategory": "Portal"
+    },
+    {
+      "title": "postgresql_active_directory_administrator",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_configuration",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_database",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_firewall_rule",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_flexible_server",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_flexible_server_active_directory_administrator",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_flexible_server_backup",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_flexible_server_configuration",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_flexible_server_database",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_flexible_server_firewall_rule",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_flexible_server_virtual_endpoint",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_server",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_server_key",
+      "subcategory": "Database"
+    },
+    {
+      "title": "postgresql_virtual_network_rule",
+      "subcategory": "Database"
+    },
+    {
+      "title": "powerbi_embedded",
+      "subcategory": "PowerBI"
+    },
+    {
+      "title": "private_dns_a_record",
+      "subcategory": "Private DNS"
+    },
+    {
+      "title": "private_dns_aaaa_record",
+      "subcategory": "Private DNS"
+    },
+    {
+      "title": "private_dns_cname_record",
+      "subcategory": "Private DNS"
+    },
+    {
+      "title": "private_dns_mx_record",
+      "subcategory": "Private DNS"
+    },
+    {
+      "title": "private_dns_ptr_record",
+      "subcategory": "Private DNS"
+    },
+    {
+      "title": "private_dns_resolver",
+      "subcategory": "Private DNS Resolver"
+    },
+    {
+      "title": "private_dns_resolver_dns_forwarding_ruleset",
+      "subcategory": "Private DNS Resolver"
+    },
+    {
+      "title": "private_dns_resolver_forwarding_rule",
+      "subcategory": "Private DNS Resolver"
+    },
+    {
+      "title": "private_dns_resolver_inbound_endpoint",
+      "subcategory": "Private DNS Resolver"
+    },
+    {
+      "title": "private_dns_resolver_outbound_endpoint",
+      "subcategory": "Private DNS Resolver"
+    },
+    {
+      "title": "private_dns_resolver_virtual_network_link",
+      "subcategory": "Private DNS Resolver"
+    },
+    {
+      "title": "private_dns_srv_record",
+      "subcategory": "Private DNS"
+    },
+    {
+      "title": "private_dns_txt_record",
+      "subcategory": "Private DNS"
+    },
+    {
+      "title": "private_dns_zone",
+      "subcategory": "Private DNS"
+    },
+    {
+      "title": "private_dns_zone_virtual_network_link",
+      "subcategory": "Private DNS"
+    },
+    {
+      "title": "private_endpoint",
+      "subcategory": "Network"
+    },
+    {
+      "title": "private_endpoint_application_security_group_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "private_link_service",
+      "subcategory": "Network"
+    },
+    {
+      "title": "proximity_placement_group",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "public_ip",
+      "subcategory": "Network"
+    },
+    {
+      "title": "public_ip_prefix",
+      "subcategory": "Network"
+    },
+    {
+      "title": "purview_account",
+      "subcategory": "Purview"
+    },
+    {
+      "title": "qumulo_file_system",
+      "subcategory": "Qumulo"
+    },
+    {
+      "title": "recovery_services_vault",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "recovery_services_vault_resource_guard_association",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "redhat_openshift_cluster",
+      "subcategory": "Red Hat OpenShift"
+    },
+    {
+      "title": "redis_cache",
+      "subcategory": "Redis"
+    },
+    {
+      "title": "redis_cache_access_policy",
+      "subcategory": "Redis"
+    },
+    {
+      "title": "redis_cache_access_policy_assignment",
+      "subcategory": "Redis"
+    },
+    {
+      "title": "redis_enterprise_cluster",
+      "subcategory": "Redis Enterprise"
+    },
+    {
+      "title": "redis_enterprise_database",
+      "subcategory": "Redis Enterprise"
+    },
+    {
+      "title": "redis_firewall_rule",
+      "subcategory": "Redis"
+    },
+    {
+      "title": "redis_linked_server",
+      "subcategory": "Redis"
+    },
+    {
+      "title": "relay_hybrid_connection",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "relay_hybrid_connection_authorization_rule",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "relay_namespace",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "relay_namespace_authorization_rule",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "resource_deployment_script_azure_cli",
+      "subcategory": "Template"
+    },
+    {
+      "title": "resource_deployment_script_azure_power_shell",
+      "subcategory": "Template"
+    },
+    {
+      "title": "resource_group",
+      "subcategory": "Base"
+    },
+    {
+      "title": "resource_group_cost_management_export",
+      "subcategory": "Cost Management"
+    },
+    {
+      "title": "resource_group_cost_management_view",
+      "subcategory": "Cost Management"
+    },
+    {
+      "title": "resource_group_policy_assignment",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "resource_group_policy_exemption",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "resource_group_policy_remediation",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "resource_group_template_deployment",
+      "subcategory": "Template"
+    },
+    {
+      "title": "resource_management_private_link",
+      "subcategory": "Management"
+    },
+    {
+      "title": "resource_management_private_link_association",
+      "subcategory": "Management"
+    },
+    {
+      "title": "resource_policy_assignment",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "resource_policy_exemption",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "resource_policy_remediation",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "resource_provider_feature_registration",
+      "subcategory": "Base"
+    },
+    {
+      "title": "resource_provider_registration",
+      "subcategory": "Base"
+    },
+    {
+      "title": "role_assignment",
+      "subcategory": "Authorization"
+    },
+    {
+      "title": "role_definition",
+      "subcategory": "Authorization"
+    },
+    {
+      "title": "role_management_policy",
+      "subcategory": "Authorization"
+    },
+    {
+      "title": "route",
+      "subcategory": "Network"
+    },
+    {
+      "title": "route_filter",
+      "subcategory": "Network"
+    },
+    {
+      "title": "route_map",
+      "subcategory": "Network"
+    },
+    {
+      "title": "route_server",
+      "subcategory": "Network"
+    },
+    {
+      "title": "route_server_bgp_connection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "route_table",
+      "subcategory": "Network"
+    },
+    {
+      "title": "search_service",
+      "subcategory": "Search"
+    },
+    {
+      "title": "search_shared_private_link_service",
+      "subcategory": "Search"
+    },
+    {
+      "title": "security_center_assessment",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "security_center_assessment_policy",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "security_center_auto_provisioning",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "security_center_automation",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "security_center_contact",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "security_center_server_vulnerability_assessment_virtual_machine",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "security_center_server_vulnerability_assessments_setting",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "security_center_setting",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "security_center_storage_defender",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "security_center_subscription_pricing",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "security_center_workspace",
+      "subcategory": "Security Center"
+    },
+    {
+      "title": "sentinel_alert_rule_anomaly_built_in",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_alert_rule_anomaly_duplicate",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_alert_rule_fusion",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_alert_rule_machine_learning_behavior_analytics",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_alert_rule_ms_security_incident",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_alert_rule_nrt",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_alert_rule_scheduled",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_alert_rule_threat_intelligence",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_automation_rule",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_aws_cloud_trail",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_aws_s3",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_azure_active_directory",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_azure_advanced_threat_protection",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_azure_security_center",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_dynamics_365",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_iot",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_microsoft_cloud_app_security",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_microsoft_defender_advanced_threat_protection",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_microsoft_threat_intelligence",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_microsoft_threat_protection",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_office_365",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_office_365_project",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_office_atp",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_office_irm",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_office_power_bi",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_threat_intelligence",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_data_connector_threat_intelligence_taxii",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_log_analytics_workspace_onboarding",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_metadata",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_threat_intelligence_indicator",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_watchlist",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "sentinel_watchlist_item",
+      "subcategory": "Sentinel"
+    },
+    {
+      "title": "service_fabric_cluster",
+      "subcategory": "Service Fabric"
+    },
+    {
+      "title": "service_fabric_managed_cluster",
+      "subcategory": "Service Fabric Managed Clusters"
+    },
+    {
+      "title": "service_plan",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "servicebus_namespace",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "servicebus_namespace_authorization_rule",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "servicebus_namespace_customer_managed_key",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "servicebus_namespace_disaster_recovery_config",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "servicebus_queue",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "servicebus_queue_authorization_rule",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "servicebus_subscription",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "servicebus_subscription_rule",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "servicebus_topic",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "servicebus_topic_authorization_rule",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "shared_image",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "shared_image_gallery",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "shared_image_version",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "signalr_service",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "signalr_service_custom_certificate",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "signalr_service_custom_domain",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "signalr_service_network_acl",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "signalr_shared_private_link_resource",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "site_recovery_fabric",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_hyperv_network_mapping",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_hyperv_replication_policy",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_hyperv_replication_policy_association",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_network_mapping",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_protection_container",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_protection_container_mapping",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_replicated_vm",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_replication_policy",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_replication_recovery_plan",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_services_vault_hyperv_site",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_vmware_replicated_vm",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_vmware_replication_policy",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "site_recovery_vmware_replication_policy_association",
+      "subcategory": "Recovery Services"
+    },
+    {
+      "title": "snapshot",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "source_control_token",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "spring_cloud_accelerator",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_active_deployment",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_api_portal",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_api_portal_custom_domain",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_app",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_app_cosmosdb_association",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_app_dynamics_application_performance_monitoring",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_app_mysql_association",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_app_redis_association",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_application_insights_application_performance_monitoring",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_application_live_view",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_build_deployment",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_build_pack_binding",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_builder",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_certificate",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_configuration_service",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_connection",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_container_deployment",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_custom_domain",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_customized_accelerator",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_dev_tool_portal",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_dynatrace_application_performance_monitoring",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_elastic_application_performance_monitoring",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_gateway",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_gateway_custom_domain",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_gateway_route_config",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_java_deployment",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_new_relic_application_performance_monitoring",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_service",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "spring_cloud_storage",
+      "subcategory": "Spring Cloud"
+    },
+    {
+      "title": "ssh_public_key",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "stack_hci_cluster",
+      "subcategory": "Azure Stack HCI"
+    },
+    {
+      "title": "stack_hci_deployment_setting",
+      "subcategory": "Azure Stack HCI"
+    },
+    {
+      "title": "stack_hci_extension",
+      "subcategory": "Azure Stack HCI"
+    },
+    {
+      "title": "stack_hci_logical_network",
+      "subcategory": "Azure Stack HCI"
+    },
+    {
+      "title": "stack_hci_marketplace_gallery_image",
+      "subcategory": "Azure Stack HCI"
+    },
+    {
+      "title": "stack_hci_network_interface",
+      "subcategory": "Azure Stack HCI"
+    },
+    {
+      "title": "stack_hci_storage_path",
+      "subcategory": "Azure Stack HCI"
+    },
+    {
+      "title": "stack_hci_virtual_hard_disk",
+      "subcategory": "Azure Stack HCI"
+    },
+    {
+      "title": "static_site",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "static_site_custom_domain",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "static_web_app",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "static_web_app_custom_domain",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "static_web_app_function_app_registration",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "storage_account",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_account_customer_managed_key",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_account_local_user",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_account_network_rules",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_account_queue_properties",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_account_static_website",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_blob",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_blob_inventory_policy",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_container",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_container_immutability_policy",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_data_lake_gen2_filesystem",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_data_lake_gen2_path",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_encryption_scope",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_management_policy",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_mover",
+      "subcategory": "Storage Mover"
+    },
+    {
+      "title": "storage_mover_agent",
+      "subcategory": "Storage Mover"
+    },
+    {
+      "title": "storage_mover_job_definition",
+      "subcategory": "Storage Mover"
+    },
+    {
+      "title": "storage_mover_project",
+      "subcategory": "Storage Mover"
+    },
+    {
+      "title": "storage_mover_source_endpoint",
+      "subcategory": "Storage Mover"
+    },
+    {
+      "title": "storage_mover_target_endpoint",
+      "subcategory": "Storage Mover"
+    },
+    {
+      "title": "storage_object_replication",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_queue",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_share",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_share_directory",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_share_file",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_sync",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_sync_cloud_endpoint",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_sync_group",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_sync_server_endpoint",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_table",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "storage_table_entity",
+      "subcategory": "Storage"
+    },
+    {
+      "title": "stream_analytics_cluster",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_function_javascript_uda",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_function_javascript_udf",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_job",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_job_schedule",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_job_storage_account",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_managed_private_endpoint",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_output_blob",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_output_cosmosdb",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_output_eventhub",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_output_function",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_output_mssql",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_output_powerbi",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_output_servicebus_queue",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_output_servicebus_topic",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_output_synapse",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_output_table",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_reference_input_blob",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_reference_input_mssql",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_stream_input_blob",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_stream_input_eventhub",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_stream_input_eventhub_v2",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "stream_analytics_stream_input_iothub",
+      "subcategory": "Stream Analytics"
+    },
+    {
+      "title": "subnet",
+      "subcategory": "Network"
+    },
+    {
+      "title": "subnet_nat_gateway_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "subnet_network_security_group_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "subnet_route_table_association",
+      "subcategory": "Network"
+    },
+    {
+      "title": "subnet_service_endpoint_storage_policy",
+      "subcategory": "Network"
+    },
+    {
+      "title": "subscription",
+      "subcategory": "Base"
+    },
+    {
+      "title": "subscription_cost_management_export",
+      "subcategory": "Cost Management"
+    },
+    {
+      "title": "subscription_cost_management_view",
+      "subcategory": "Cost Management"
+    },
+    {
+      "title": "subscription_policy_assignment",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "subscription_policy_exemption",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "subscription_policy_remediation",
+      "subcategory": "Policy"
+    },
+    {
+      "title": "subscription_template_deployment",
+      "subcategory": "Template"
+    },
+    {
+      "title": "synapse_firewall_rule",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_integration_runtime_azure",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_integration_runtime_self_hosted",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_linked_service",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_managed_private_endpoint",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_private_link_hub",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_role_assignment",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_spark_pool",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_sql_pool",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_sql_pool_extended_auditing_policy",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_sql_pool_security_alert_policy",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_sql_pool_vulnerability_assessment",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_sql_pool_vulnerability_assessment_baseline",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_sql_pool_workload_classifier",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_sql_pool_workload_group",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_workspace",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_workspace_aad_admin",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_workspace_extended_auditing_policy",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_workspace_key",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_workspace_security_alert_policy",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_workspace_sql_aad_admin",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "synapse_workspace_vulnerability_assessment",
+      "subcategory": "Synapse"
+    },
+    {
+      "title": "system_center_virtual_machine_manager_availability_set",
+      "subcategory": "System Center Virtual Machine Manager"
+    },
+    {
+      "title": "system_center_virtual_machine_manager_cloud",
+      "subcategory": "System Center Virtual Machine Manager"
+    },
+    {
+      "title": "system_center_virtual_machine_manager_server",
+      "subcategory": "System Center Virtual Machine Manager"
+    },
+    {
+      "title": "system_center_virtual_machine_manager_virtual_machine_instance",
+      "subcategory": "System Center Virtual Machine Manager"
+    },
+    {
+      "title": "system_center_virtual_machine_manager_virtual_machine_instance_guest_agent",
+      "subcategory": "System Center Virtual Machine Manager"
+    },
+    {
+      "title": "system_center_virtual_machine_manager_virtual_machine_template",
+      "subcategory": "System Center Virtual Machine Manager"
+    },
+    {
+      "title": "system_center_virtual_machine_manager_virtual_network",
+      "subcategory": "System Center Virtual Machine Manager"
+    },
+    {
+      "title": "tenant_template_deployment",
+      "subcategory": "Template"
+    },
+    {
+      "title": "traffic_manager_azure_endpoint",
+      "subcategory": "Network"
+    },
+    {
+      "title": "traffic_manager_external_endpoint",
+      "subcategory": "Network"
+    },
+    {
+      "title": "traffic_manager_nested_endpoint",
+      "subcategory": "Network"
+    },
+    {
+      "title": "traffic_manager_profile",
+      "subcategory": "Network"
+    },
+    {
+      "title": "trusted_signing_account",
+      "subcategory": "Trusted Signing"
+    },
+    {
+      "title": "user_assigned_identity",
+      "subcategory": "Authorization"
+    },
+    {
+      "title": "video_indexer_account",
+      "subcategory": "Video Indexer"
+    },
+    {
+      "title": "virtual_desktop_application",
+      "subcategory": "Desktop Virtualization"
+    },
+    {
+      "title": "virtual_desktop_application_group",
+      "subcategory": "Desktop Virtualization"
+    },
+    {
+      "title": "virtual_desktop_host_pool",
+      "subcategory": "Desktop Virtualization"
+    },
+    {
+      "title": "virtual_desktop_host_pool_registration_info",
+      "subcategory": "Desktop Virtualization"
+    },
+    {
+      "title": "virtual_desktop_scaling_plan",
+      "subcategory": "Desktop Virtualization"
+    },
+    {
+      "title": "virtual_desktop_scaling_plan_host_pool_association",
+      "subcategory": "Desktop Virtualization"
+    },
+    {
+      "title": "virtual_desktop_workspace",
+      "subcategory": "Desktop Virtualization"
+    },
+    {
+      "title": "virtual_desktop_workspace_application_group_association",
+      "subcategory": "Desktop Virtualization"
+    },
+    {
+      "title": "virtual_hub",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_hub_bgp_connection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_hub_connection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_hub_ip",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_hub_route_table",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_hub_route_table_route",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_hub_routing_intent",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_hub_security_partner_provider",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_machine",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "virtual_machine_automanage_configuration_assignment",
+      "subcategory": "Automanage"
+    },
+    {
+      "title": "virtual_machine_data_disk_attachment",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "virtual_machine_extension",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "virtual_machine_gallery_application_assignment",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "virtual_machine_implicit_data_disk_from_source",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "virtual_machine_packet_capture",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_machine_restore_point",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "virtual_machine_restore_point_collection",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "virtual_machine_run_command",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "virtual_machine_scale_set",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "virtual_machine_scale_set_extension",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "virtual_machine_scale_set_packet_capture",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_machine_scale_set_standby_pool",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "virtual_network",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_network_dns_servers",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_network_gateway",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_network_gateway_connection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_network_gateway_nat_rule",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_network_peering",
+      "subcategory": "Network"
+    },
+    {
+      "title": "virtual_wan",
+      "subcategory": "Network"
+    },
+    {
+      "title": "vmware_cluster",
+      "subcategory": "Azure VMware Solution"
+    },
+    {
+      "title": "vmware_express_route_authorization",
+      "subcategory": "Azure VMware Solution"
+    },
+    {
+      "title": "vmware_netapp_volume_attachment",
+      "subcategory": "Azure VMware Solution"
+    },
+    {
+      "title": "vmware_private_cloud",
+      "subcategory": "Azure VMware Solution"
+    },
+    {
+      "title": "voice_services_communications_gateway",
+      "subcategory": "Voice Services"
+    },
+    {
+      "title": "voice_services_communications_gateway_test_line",
+      "subcategory": "Voice Services"
+    },
+    {
+      "title": "vpn_gateway",
+      "subcategory": "Network"
+    },
+    {
+      "title": "vpn_gateway_connection",
+      "subcategory": "Network"
+    },
+    {
+      "title": "vpn_gateway_nat_rule",
+      "subcategory": "Network"
+    },
+    {
+      "title": "vpn_server_configuration",
+      "subcategory": "Network"
+    },
+    {
+      "title": "vpn_server_configuration_policy_group",
+      "subcategory": "Network"
+    },
+    {
+      "title": "vpn_site",
+      "subcategory": "Network"
+    },
+    {
+      "title": "web_app_active_slot",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "web_app_hybrid_connection",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "web_application_firewall_policy",
+      "subcategory": "Network"
+    },
+    {
+      "title": "web_pubsub",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "web_pubsub_custom_certificate",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "web_pubsub_custom_domain",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "web_pubsub_hub",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "web_pubsub_network_acl",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "web_pubsub_shared_private_link_resource",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "web_pubsub_socketio",
+      "subcategory": "Messaging"
+    },
+    {
+      "title": "windows_function_app",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "windows_function_app_slot",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "windows_virtual_machine",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "windows_virtual_machine_scale_set",
+      "subcategory": "Compute"
+    },
+    {
+      "title": "windows_web_app",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "windows_web_app_slot",
+      "subcategory": "App Service (Web Apps)"
+    },
+    {
+      "title": "workloads_sap_discovery_virtual_instance",
+      "subcategory": "Workloads"
+    },
+    {
+      "title": "workloads_sap_single_node_virtual_instance",
+      "subcategory": "Workloads"
+    },
+    {
+      "title": "workloads_sap_three_tier_virtual_instance",
+      "subcategory": "Workloads"
+    }
+  ]
+}
