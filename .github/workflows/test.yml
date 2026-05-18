@@ -72,3 +72,15 @@ jobs:
           python-version: "3.x"
       - name: Verify README.md resource section matches docs/resources/
         run: python3 scripts/generate-resource-table.py --check
+
+  parity-table:
+    name: PARITY.md in sync
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Verify PARITY.md matches scripts/azurerm-resources.snapshot.json
+        run: python3 scripts/generate-parity-report.py --check

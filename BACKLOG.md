@@ -2,6 +2,8 @@
 
 Proposed resources to add to `terraform-provider-azuresim`, ranked by deployment frequency and ordered so dependencies ship before dependents.
 
+> **See also `PARITY.md`** — the canonical, auto-generated coverage report against AzureRM (61 / 1128 resources as of the latest snapshot). The "Recommended next-up resources" table there is the curated short-list this backlog should pull from going forward. This file remains the source of truth for tiering / dependency-ordering across batches; PARITY.md feeds the next 3-5 picks.
+
 ## Already implemented
 - `azuresim_resource_group`
 - `azuresim_virtual_network`
