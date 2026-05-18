@@ -60,3 +60,15 @@ jobs:
             gofmt -s -l .
             exit 1
           fi
+
+  docs-table:
+    name: README resource table in sync
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Verify README.md resource section matches docs/resources/
+        run: python3 scripts/generate-resource-table.py --check
